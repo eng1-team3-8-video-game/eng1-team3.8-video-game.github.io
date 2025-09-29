@@ -5,8 +5,8 @@ Video Game Website
 
 ### Members:
 - Henry G
-- Issac K
-- Issac M
+- Isaac K
+- Isaac M
 - Lenny S
 - Andrii K
 - Rishi T
