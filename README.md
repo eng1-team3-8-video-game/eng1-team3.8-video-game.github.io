@@ -1,4 +1,4 @@
-# eng1-team3.8-video-game.github.io
+# eng1-team3.8.github.io
 
 ## Eng1, Cohort 3, Team 8  
 Video Game Website
