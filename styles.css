@@ -2,6 +2,27 @@ body {
     background-color: aliceblue;
 }
 
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+}
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
@@ -11,4 +32,42 @@ p {
 .names p{
     font-size: small;
     color: blueviolet;
+    line-height: 0.8;
+    text-align: center;
+
 }
+
+/* Code for the title */
+
+.title h1 {
+    text-align: center;
+    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.title h1:after,.title h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+    background-color:#f8f8f8;
+}
+
+/* Code for the menu */
+
+/* .menu {
+    background-color: skyblue;
+    margin: 10;
+}
+
+.menu p{
+    text-align: center;
+} */
+
