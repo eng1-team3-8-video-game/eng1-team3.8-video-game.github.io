@@ -7,3 +7,8 @@ p {
     font-size: medium;
     color: darkblue;
 }
+
+.names p{
+    font-size: small;
+    color: blueviolet;
+}
