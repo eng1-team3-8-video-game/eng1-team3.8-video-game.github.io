@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 
 <head>
-    <script type="module" src="script.ts"></script>
+    <script type="text/javascript">
+        console.log("!")
+
+        let texts = [
+        "I love Charlie Jeffries!",
+        "Mike Freeman is the best!",
+        "Please choose this project",
+        "This is a website"
+        ]
+        
+        function getRandomInt(min, max){
+            return Math.floor(Math.random() * (max-min)) + min
+        }
+
+        let arrayNum = getRandomInt(0, texts.length);
+        console.log("This will execute now");
+        document.title = texts[arrayNum];
+        
+    </script>
     <link rel="stylesheet" href="styles.css">
     <title id="title">I love Charlie Jeffries!</title>
 
@@ -9,17 +27,21 @@
 
 <html>
     <body>
+        <!-- <script type="javascript" src="script.js"></script> -->
         <h1>Team 8 cohort 3</h1>
         <p>Project of cohort 3 team 8</p>
-        <p></p>
-        <p>Henry G</p>
-        <p>Lenny S</p>
-        <p>Isaac M</p>
-        <p>Andri K</p>
-        <p>Rishi T</p>
-        <p>Isaac K</p>
-        <p>Viktor B</p>
-        
+
+        <div class="names">
+            <p>Henry G</p>
+            <p>Lenny S</p>
+            <p>Isaac M</p>
+            <p>Andri K</p>
+            <p>Rishi T</p>
+            <p>Isaac K</p>
+            <p>Viktor B</p>
+        </div>
+
+        <img src="placeholder.jpg">
         
 
     </body>
